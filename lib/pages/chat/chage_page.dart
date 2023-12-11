@@ -46,7 +46,8 @@ class _ChatPageState extends State<ChatPage> {
                       ),
                       Text(
                         message.name,
-                        textScaleFactor: 1.1,
+                        
+                        style:TextStyle(fontSize:20)
                       ),
                       Container(
                         margin: EdgeInsets.only(
@@ -63,8 +64,8 @@ class _ChatPageState extends State<ChatPage> {
                                   horizontal: 15.0, vertical: 10),
                               child: Text(
                                 message.text,
-                                style: const TextStyle(color: Colors.white),
-                                textScaleFactor: 1.1,
+                                style: const TextStyle(color: Colors.white,),
+                                
                               ),
                             )),
                       ),
